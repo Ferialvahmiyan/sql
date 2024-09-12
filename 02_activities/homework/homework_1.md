@@ -58,9 +58,6 @@ I diagramed the following four tables:
 - vendor_inventory
 
 
-  ![image](https://github.com/user-attachments/assets/ade11c2d-0838-47b5-a4d6-acd230945a6f)
-
-
 ![01_farmers_market_logical_model_partial.png](./images/01_farmers_market_logical_model_partial.png)
 
 
@@ -70,6 +67,9 @@ A logical data model must contain:
 - table name
 - column names
 - relationship type
+
+![image](https://github.com/user-attachments/assets/1edcdb01-ffeb-493a-933a-850a10028ae0)
+
 
 Please do not pick the exact same tables that I have already diagramed. For example, you shouldn't diagram the relationship between `product` and `product_category`, but you could diagram `product` and `customer_purchases`.
 
