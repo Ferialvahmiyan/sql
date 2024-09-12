@@ -57,6 +57,10 @@ I diagramed the following four tables:
 - vendor
 - vendor_inventory
 
+
+  ![image](https://github.com/user-attachments/assets/ade11c2d-0838-47b5-a4d6-acd230945a6f)
+
+
 ![01_farmers_market_logical_model_partial.png](./images/01_farmers_market_logical_model_partial.png)
 
 
