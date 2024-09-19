@@ -18,8 +18,9 @@ select customer_first_name, customer_last_name, SUM(quantity*cost_to_customer_pe
 FROM customer_purchases as cp
 INNER JOIN customer as c 
 		ON c.customer_id = cp.customer_id
-GROUP BY customer_last_name, customer_first_name	
+GROUP BY customer_last_name, customer_first_name
 having total_cost >= 2000
+order by customer_last_name, customer_first_name
 
 --Temp Table
 /* 1. Insert the original vendor table into a temp.new_vendor and then add a 10th vendor: 
